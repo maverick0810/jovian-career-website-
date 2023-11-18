@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newcss.css">
+    </head>
+    
+    <body>
+        <div id="nav">
+            <img  id="logo"  alt="Jovian Logo" src="https://th.bing.com/th/id/OIP.tFSsPWHQA1Fx2EZUpzEySQAAAA?pid=ImgDet&rs=1ll">
+        </div>
+        <img id="banner" height="400px"  src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h1>About Jovian</h1>
+        <div id="about">
+            <div id="desc">
+               <p style="margin-top: 0px">At Jovian, we're on a mission to build 
+            the worlds most highly reputed
+            technical university and we're building 
+            it completely online.</p>
+               <p>
+            We also offer 2 industry focused bootcamps:
+        <ol>
+            <li>
+                <a href="https://jovian.com/learn/web-development-with-html-and-css">
+                     Jovian Full Stack Developer Bootcamp
+                </a>
+              
+            </li>
+            <li>
+                <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas">
+                    Jovian Data Science Bootcamp
+                </a>
+                
+            </li>
+        </ol> </p>
+                
+            </div> 
+            <div id= "team">
+               <img id="teamimg" src="https://media.istockphoto.com/id/1443245439/photo/business-meeting-businesswoman-woman-office-portrait-job-career-happy-businessman-teamwork.jpg?s=1024x1024&w=is&k=20&c=NPqjCnSKcneHXR85l-2ZV5SAe0a32eoTkIy5G0sZtgc=">
+ 
+                
+            </div>
+        </div>
+        
+        <h2>Job Opportunity</h2>
+<!--       <div id="jobs">
+            <div>
+                <a href="mailto:support@jovian.com?subject=FrontEnd" class="apply"> Apply </a>
+             <h3 class="jobr">Frontend Developer</h3>
+             <div class="loc">Bengaluru,India</div>
+            
+        </div>
+        <div>
+            <a href="mailto:support@jovian.com?subject=Backend" class="apply"> Apply  </a>
+             <h3 class="jobr">Backend Developer</h3>
+             <div class="loc">Remote</div>
+        </div>
+        <div>
+            <a href="mailto:support@jovian.com?subject=Data Analysis" class="apply"> Apply </a>
+            <h3 class="jobr">Data Scientist</h3>
+            <div class="loc"> Mumbai, India</div>
+        </div>-->
+<div id="jobs">
+<table id="jobs-tab" >
+    <tr class="jobs-header">
+        <th rowspan="2">Job Title</th>
+        <th colspan="2">Location
+        </th>
+        <th rowspan="2">Salary</th>
+        <th rowspan="2">Posted On</th>
+    </tr>
+    <tr class="jobs-header">
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+  
+    <tr class="jobs-data">
+        <td>
+            Frontend Developer
+        </td>
+        <td>
+            Bengaluru
+        </td>
+        <td>India</td>
+        <td>
+            ₹ 12,00,0000
+        </td>
+        <td>
+            March 3, 2023
+        </td>
+        
+    </tr>
+    <tr class="jobs-data">
+        <td>
+            Full Stack Developer
+        </td>
+        <td>
+           New Delhi
+            
+        </td>
+         <td>India</td>
+        <td>
+            ₹ 15,00,0000
+        </td>
+        <td>
+            Feb 1, 2023
+        </td>
+    </tr>
+    <tr class="jobs-data">
+        <td>
+            Data Scientist
+        </td>
+        <td>
+            San Francisco
+            
+        </td>
+         <td>USA</td>
+        <td>
+            $175,000
+        </td>
+        <td>
+            Dec 2, 2022
+        </td>
+    </tr>
+    <tr class="jobs-data">
+        <td>
+            ML Engineer
+        </td>
+        <td colspan="2">
+            Remote            
+        </td>
+        <td>
+            $88,000
+        </td>
+        <td>
+            September 19, 2022
+        </td>
+    </tr>
+</table>
+</div> 
+
+
+        </div>
+        
+        <div id="application">
+            <h2>Submit your application</h2>
+            <form id="applicationform" action="" method="POST" enctype="multipart/form-data">
+                
+                <div class="form-group">
+                    <label for="name"> Full Name</label><br>
+                    <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label><br><!--  -->
+                    <input type="email" id="mailid" name="Email ID" required placeholder="jdoe@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label><br><!--  -->
+                    <input type="tel" id="phone" name="phone" required placeholder="+917355037859">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob" name="dob" required>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="position">Position Applied for</label><br>
+                    <select id="pos" name="Position Applied" required>
+                        <option value="">select</option>
+                        <option value="frontend">Front End Developer</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="data scientist">Data Scientist</option>
+                        <option value="ml engineer">ML Engineer</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label><br>
+                    <input type="file" id="resume" name="resume" accept=".doc, .pdf,.docx" required>
+                    
+                    
+                </div>
+                <div class="form-group">
+                    <label for="coverletter">Cover Letter</label><br>
+                    <textarea id="coverletter"  name="coverletter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+                    
+                    
+                </div>
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions </label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit Application">
+                    
+                </div>
+            </form>
+        </div>
+     
+        
+        <div id="footer">
+            <ul id="footer-links">
+                <li> 
+                    <a href="https://jovian.com/learn">
+                        Courses
+                    </a></li>
+                <li>
+                    <a href="https://jovian.com/learn" target="_blank">
+                        Program
+                    </a></li>
+                    <li> <a href="https://www.youtube.com/@jovianhq">
+                        YouTube
+                        </a></li>
+            </ul>
+            <span class="copy">© 2023, Jovian</span>
+        </div>
+</body>
+    
+</html>

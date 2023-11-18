@@ -1,0 +1,120 @@
+#banner{
+    width:100%;
+     object-fit:cover; 
+}
+.loc{
+    color:gray;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+        font-family: 'Inter', sans-serif;
+        
+}
+#nav{
+    padding:8px;
+    margin:0px;
+}
+#logo{
+    height:32px;
+}
+#about{
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+}
+#desc{
+    width:50%;
+    background-color: aliceblue;
+    padding:8px;
+}
+#team{
+    width:50%;
+    background-color: blanchedalmond;
+}
+#teamimg{
+    border-radius:5px;
+    width:100%
+}
+h2{
+    text-align: center;
+}
+#jobs{
+    max-width:800px;
+    margin:0px auto;
+    padding:0 8px;
+}
+
+
+.apply{
+    float:right;
+    text-decoration: none;
+}
+#footer{
+ background-color: ghostwhite; 
+ padding:8px;
+ text-align: center;
+}
+#footer-links li{
+    display:inline;
+  
+}
+.copy{
+    color:grey;
+   
+}
+#jobs-tab{
+    width:100%;
+    border:1px solid gray; 
+    border-collapse: collapse;
+}
+.jobs-header th{
+/*    border:1px solid grey; isse kuch naho hoga since we want header around each cell and not the entire row which is already present */
+  border:1px solid grey;
+  padding:8px   ;
+  background-color: aliceblue;
+  text-align: CENTER;   
+}
+#jobs-tab tr:nth-child(odd){
+    background-color: antiquewhite;
+}
+.jobs-data td{
+    border:1px solid grey;
+     padding:8px;
+     
+     }
+     #application{
+         max-width:800px;
+         margin:0 auto;
+         padding: 0 8px;
+     }
+     #applicationform label{
+         font-weight:600;
+     }
+     #applicationform input, select,textarea{
+         padding:8px;
+         font-size:1.25rem;
+         margin-top:4px;
+         border-radius:5px;
+         border: 1px solid;
+     }
+     .form-group{
+         margin:16px 0;
+     }
+     .form-group textarea{
+         width:80%;
+         font-family: 'Roboto', sans-serif;
+     }
+     .form-group input[type="checkbox"]{
+         width:16px;
+         height:16px;
+     }
+     .form-group input[type="submit"]{
+         background-color: #0066ff;
+         color: white;
+         font-weight:500;
+         cursor: pointer;
+     }
